@@ -37,7 +37,7 @@ The application works with three main tables:
 ## API Endpoints
 
 ### Webhook Generation
-- **URL**: `https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA`
+- **URL**: `https://localhost:8080/hiring/generateWebhook/JAVA`
 - **Method**: POST
 - **Body**:
 ```json
@@ -49,7 +49,7 @@ The application works with three main tables:
 ```
 
 ### Solution Submission
-- **URL**: `https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA`
+- **URL**: `https://localhost:8080/hiring/testWebhook/JAVA`
 - **Method**: POST
 - **Headers**:
   - `Authorization`: `<accessToken>`
